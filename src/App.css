@@ -1,0 +1,75 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: gold;
+}
+.profilecardstyling{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 4em;
+  min-width: 236px;
+}
+.pic{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 180px;
+  width: 180px;
+  border-radius: 50%;
+}
+h1, .btns,.greeting, .social{
+  text-align: center;
+}
+h1{
+  margin: 5px;
+}
+.greeting{
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+.nameandskills{
+  padding: 15px 25px;
+  margin: 10px;
+  border: none;
+  border-radius: 15px;
+  font-size: 15px;
+  font-weight: bold;
+  background-color: rgb(195, 192, 228);
+}
+.nameandskills:hover{
+  background-color: gold;
+  cursor: pointer;
+  color: white;
+}
+.nameandskills:active{
+  box-shadow: 0 2px rgb(231, 228, 228);
+  transform: translateY(2px);
+}
+.like{
+  background-color: white;
+  border: none;
+  font-size: 30px;
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+i{
+  margin-left: 5px;
+}
+.fas{
+  color: red;
+}
+.fab{
+  font-size: 40px;
+  color: rgb(0, 110, 255);
+}
+@media only screen and (max-width: 375px){
+  .profilecardstyling{
+    padding-left: 20%;
+    padding-right: 20%;
+    height:auto;
+    
+  }
+}
